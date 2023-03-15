@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    font-family:  'karla', sans-serif;
+    margin: 0;
+}
+
+body{
+background-color: #e6eff6;
+min-height: 100vh;
+display: grid;
+place-items: center;
+margin: 0;
+}
+.area-content{
+    background-color: #FFF;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 400px;
+    max-width: 635px;
+    border-radius: 10px;
+}
+.box1{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    padding: 40px;
+}
+.box1 h2{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+.box1-text1{
+    color: hsl(71, 73%, 54%);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.box1-text2{
+    color: #2bb3b1;
+}
+.box2{
+    background-color: #2bb3b1;
+    grid-column: 1 / 1;
+    grid-row: 2 / 3;
+    border-radius: 0 0 0 10px;
+    color: #fff;
+    padding: 20px 10px;
+}
+.box2-content{
+   margin: 0; 
+}
+.box2-price{
+    font-size: 35px;
+    padding-left: 30px;
+    font-weight: 700;
+}
+.box2-price span{
+    font-size: 15px;
+    color: #66d8d8;
+}
+.box2-text p{
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.box2 h2{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    
+}
+.btn{
+    background: #bfdf32;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+.box3{
+    background-color: #4abebd;
+    grid-column: 2 / 2;
+    grid-row: 2 / 3;
+    border-radius: 0 0 10px 0;
+    color: #fff;
+    padding: 20px;
+}
+.box3 h2{
+    margin: 15px;
+    font-size: 20px;
+}
+.box3-text{
+    margin: 20px;
+    max-width: 160px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+
+
+
